@@ -1,0 +1,37 @@
+  body {
+      background-color: black;
+  }
+
+  h1 {
+      color: aliceblue;
+      display: flex;
+      justify-content: center;
+  }
+
+  .midia {
+      display: flex;
+      justify-content: center;
+  }
+
+  .ac {
+      display: flex;
+      justify-content: center;
+      color: aliceblue;
+      font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+          sans-serif;
+      font-size: 20px;
+  }
+
+  a {
+      display: flex;
+      justify-content: center;
+  }
+
+  .efee {
+      display: inline-block;
+      transition: transform 0.3s ease;
+  }
+
+  .efee:hover {
+      transform: scale(1.2);
+  }

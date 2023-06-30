@@ -1,0 +1,47 @@
+  body {
+      background-color: black;
+  }
+
+  .tamah {
+      color: aliceblue;
+      display: flex;
+      justify-content: center;
+      font-family: Arial, Helvetica, sans-serif;
+      text-transform: uppercase;
+      padding: 0px;
+      background-color: #1b6e9e;
+      box-shadow: 0px 0px 25px 10px #22bdec;
+      border: solid 3px;
+      margin-left: 100px;
+      margin-right: 100px;
+      height: auto;
+      font-size: 15px;
+  }
+
+  .meio {
+      position: relative;
+      position: absolute;
+      left: 20%;
+      transform: translateX(05%);
+      box-shadow: 0px 0px 0px 2px #1ad5e2;
+      margin: 35px;
+  }
+
+  .social {
+      position: fixed;
+      bottom: 30px;
+      right: 22px;
+      width: 22cm;
+      font-size: 2cm;
+
+  }
+
+  .efeito {
+      display: inline-block;
+      transition: transform 0.3s ease;
+  }
+
+  .efeito:hover {
+      transform: scale(1.5);
+
+  }
